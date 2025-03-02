@@ -1,0 +1,39 @@
+.gradient-navbar {
+  background: linear-gradient(90deg, #1b5e20, #43a047);
+}
+
+.hero-section {
+  height: 100vh;
+  background: url("/image.png") no-repeat center center;
+ 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-button {
+  background-color: #2e7d32;
+  border: none;
+  transition: 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #1b5e20;
+}
+
+.upload-card {
+  max-width: 500px;
+  background-color: #f1f8e9;
+  border-radius: 10px;
+}
+
+.custom-file-label {
+  background: #e8f5e9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.gradient-footer {
+  background: linear-gradient(90deg, #43a047, #1b5e20);
+}
